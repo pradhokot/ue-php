@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Uang Emas &bull; Syarat & Ketentuan</title>
+   <script src="layout/head.js"></script>
+   <link rel="stylesheet" href="css/blank.css">
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
+      </header><!-- end page header -->
+      <main class="page-body">
+
+         <section>
+            <div class="container">
+               <div class="row row-gap-4">
+                  <div class="col col-12 col-lg-5">
+                     <div class="header-wrapper">
+                        <img src="assets/img/goesto.png" width="100%" height="auto" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col col-12 col-lg-7">
+
+                     <script src="layout/terms.js"></script>
+
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section>
+
+      </main><!-- end page body -->
+      <footer class="page-footer">
+         <script src="layout/footbar.js"></script>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".page-title").text('Syarat & Ketentuan');
+         $('#nav-terms').addClass('active');
+      });
+   </script>
+</body>
+</html>
